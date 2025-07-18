@@ -1421,4 +1421,4 @@ app.template_folder = None # Explicitly set to None
 # --- Run the application ---
 if __name__ == '__main__':
     init_db()  # Initialize database when the app starts
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
