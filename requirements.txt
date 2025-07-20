@@ -2,3 +2,4 @@ Flask
 Werkzeug
 qrcode
 Jinja2
+Pillow
